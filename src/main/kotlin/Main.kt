@@ -49,7 +49,7 @@ fun displayWeatherData(weatherData: WeatherData) {
     }
     println("")
     println("")
-    println("The current conditions in ${weatherData.city}, ${weatherData.countryCode} is ${weatherData.weatherDescription}.")
+    println("The current conditions in ${weatherData.city} is ${weatherData.weatherDescription}.")
     println("The current temp is ${weatherData.temperature} degrees fahrenheit, with a high of ${weatherData.highTemp} degrees fahrenheit and a low of ${weatherData.lowTemp} degrees fahrenheit, but it feels ${weatherData.feltTemp} degrees fahrenheit.")
     println("The humidity is ${weatherData.humidity}% with wind speeds of ${weatherData.windSpeed}/mph.")
 }
